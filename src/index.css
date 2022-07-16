@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.woff2') format('woff2'),
+      url('./fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Products */
+@import url('./css/products.css');
+
+/* Products Card */
+@import url('./css/products_card.css');
+
+/* Product Info */
+@import url('./css/product_info.css');
+
+/* Pagination */
+@import url('./css/pagination.css');
+
+/* Sorting */
+@import url('./css/sorting.css');
+
+/* Header */
+@import url('./css/header.css');
+
+/* Modal */
+@import url('./css/modal.css');
+
+/* Search Form */
+@import url('./css/search_form.css');
+
+
+/* Filter Form */
+@import url('./css/filter_form.css');
+
+/* Product Form */
+@import url('./css/product_form.css');
+
+/* Button Load more*/
+.btn-load_more{
+  background: white;
+  border: 2px solid green;
+  padding: 10px 20px;
+  margin: 10px auto;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  cursor: pointer;
+}
